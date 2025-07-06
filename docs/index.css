@@ -3,8 +3,8 @@
 body, html {
     margin: 0;
     padding: 0;
-    height: 100%;
-    overflow: hidden;
+    height: 200%;
+    /* overflow: hidden; */
     background: #F3F0E9;
     position: relative;
 }
