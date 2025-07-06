@@ -15,7 +15,7 @@ body, html {
     height: 16px;
     background: linear-gradient(to bottom, #A47551 0%, #523A28 50%, #523A28 100%);
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
-    right: 15%;
+    right: 34.7%;
     top: -20px;
     animation: dropFall 3s ease-in infinite;
     box-shadow: 0 0 10px rgba(164, 117, 81, 0.4);
@@ -44,7 +44,7 @@ body, html {
 
 .ripple-container {
     position: absolute;
-    right: 15%;
+    right: 35%;
     top: 42vh;
     width: 1px;
     height: 1px;
