@@ -212,9 +212,9 @@ body, html {
 }
 
 .tall-rounded-rect {
-  width: 40%;
+  width: 30%;
   height: 300px;
-  background-color: #f0f0f0;
+  background-color: #E4DACB;
   border-radius: 16px;
   border: 1px solid #ddd;
   
