@@ -203,3 +203,33 @@ body, html {
     gap: 20px;
     margin-bottom: -50px;
 }
+
+.strip1 {
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+}
+
+.tall-rounded-rect {
+  width: 40%;
+  height: 300px;
+  background-color: #f0f0f0;
+  border-radius: 16px;
+  border: 1px solid #ddd;
+  
+  /* Flexbox item properties */
+  flex-shrink: 0; /* Prevents shrinking */
+
+  /* Text containment */
+  overflow: hidden; /* Hides text that goes outside */
+  word-wrap: break-word; /* Breaks long words */
+  box-sizing: border-box; /* Includes padding in width/height */
+  
+  /* Optional: Add some visual enhancement */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+
+  padding: 20px;
+
+  z-index: 10;
+}
